@@ -1,4 +1,4 @@
-body, div, h1, h2, h3,p, header, section {
+body, div, h1, h2, h3, p, ul, header, section {
   margin: 0;
   padding: 0;
   border: 0;
@@ -90,6 +90,18 @@ header h1 {
   justify-content: start;
 }
 
+ul {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #eed3b4;
+  font-size: 3.2em;
+}
+
+ul.no-bullet {
+  list-style-type: none;
+}
+
 .item-1 {
   grid-column-start: 1;
   grid-column-end: line3;
@@ -163,6 +175,7 @@ header h1 {
   grid-row-start: row1-start;
   padding-top: 5px;
   padding-left: 25px;
+  padding-right: 25px;
 }
 
 .item-11 {
@@ -319,94 +332,113 @@ header h1 {
   padding: 10px;
 }
 
+.item-30 {
+    grid-column-start: line3;
+    grid-column-end: end;
+    grid-row-start: row1-start;
+    padding: 10px;
+}
+
+.item-31 {
+  grid-column-start: line3;
+  grid-column-end: line4;
+  grid-row-start: row1-start;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+
 .rotate90 {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   padding-top: 15px;
 }
 
-.sect-1 {
+#sect-1 {
   background-color: #0a0a0a;
 }
 
-.sect-2 {
+#sect-2 {
   background-color: #141414;
 }
 
-.sect-3 {
+#sect-3 {
   background-color: white;
 }
 
-.sect-4 {
+#sect-4 {
   background-color: white;
 }
 
-.sect-5 {
+#sect-5 {
   background-color: white;
 }
 
-.sect-6 {
+#sect-6 {
   background-color: #141414;
 }
 
-.sect-7 {
+#sect-7 {
   background-color: white;
 }
 
-.sect-8 {
+#sect-8 {
   background-color: #0a0a0a;
 }
 
-.sect-9 {
+#sect-9 {
   background-color: white;
 }
 
-.sect-10 {
+#sect-10 {
   background-color: white;
 }
 
-.sect-11 {
+#sect-11 {
   background-color: white;
 }
 
-.sect-12 {
+#sect-12 {
   background-color: white;
 }
 
-.sect-13 {
+#sect-13 {
   background-color: white;
 }
 
-.sect-14 {
+#sect-14 {
   background-color: white;
 }
 
-.sect-15 {
+#sect-15 {
   background-color: #141414;
 }
 
-.sect-16 {
+#sect-16 {
   background-color: white;
 }
 
-.sect-17 {
+#sect-17 {
   background-color: white;
 }
 
-.sect-18 {
+#sect-18 {
   background-color: white;
 }
 
-.sect-19 {
+#sect-19 {
   background-color: white;
 }
 
-.sect-20 {
+#sect-20 {
   background-color: #0a0a0a;
 }
 
-.sect-21 {
+#sect-21 {
   background-color: white;
+}
+
+.sect-22 {
+  background-color: black;
 }
 
 .column {
