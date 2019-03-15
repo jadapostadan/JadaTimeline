@@ -102,6 +102,22 @@ ul.no-bullet {
   list-style-type: none;
 }
 
+a {
+  color: #eed3b4;
+  line-height: 1.2em;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+a:visited {
+  color: #C95555; /* #C95555 (red) #B4CFEE (light blue) #EEB4EC (light pink) */
+}
+
+a:hover {
+/*  text-shadow: 2px 2px 6px #edb4c3; */
+  color: #C95555; /* #C95555 (red) #B4CFEE (light blue) #EEB4EC (light pink) */
+}
+
 .item-1 {
   grid-column-start: 1;
   grid-column-end: line3;
@@ -290,6 +306,7 @@ ul.no-bullet {
   grid-row-start: row1-end;
   align-self: end;
   padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .item-25 {
@@ -297,6 +314,7 @@ ul.no-bullet {
   grid-column-end: line2;
   grid-row-start: row1-start;
   align-self: start;
+  padding-top: 15px;
   padding-left: 10px;
 }
 
@@ -304,7 +322,7 @@ ul.no-bullet {
   grid-column-start: line3;
   grid-column-end: end;
   grid-row-start: row1-start;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-left: 10px;
 }
 
@@ -322,6 +340,7 @@ ul.no-bullet {
     grid-row-start: row1-end;
     align-self: end;
     padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .item-29 {
@@ -354,11 +373,11 @@ ul.no-bullet {
 }
 
 #sect-1 {
-  background-color: #0a0a0a;
+  background-color: black;
 }
 
 #sect-2 {
-  background-color: #141414;
+  background-color: black;
 }
 
 #sect-3 {
@@ -374,7 +393,7 @@ ul.no-bullet {
 }
 
 #sect-6 {
-  background-color: #141414;
+  background-color: white;
 }
 
 #sect-7 {
@@ -382,7 +401,7 @@ ul.no-bullet {
 }
 
 #sect-8 {
-  background-color: #0a0a0a;
+  background-color: black;
 }
 
 #sect-9 {
@@ -410,7 +429,7 @@ ul.no-bullet {
 }
 
 #sect-15 {
-  background-color: #141414;
+  background-color: black;
 }
 
 #sect-16 {
@@ -430,7 +449,7 @@ ul.no-bullet {
 }
 
 #sect-20 {
-  background-color: #0a0a0a;
+  background-color: black;
 }
 
 #sect-21 {
