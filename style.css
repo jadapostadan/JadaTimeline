@@ -106,16 +106,16 @@ a {
   color: #eed3b4;
   line-height: 1.2em;
   text-decoration: none;
-  transition: color 0.4s;
+  transition: color 0.5s;
 }
 
 a:visited {
-  color: #C95555; /* #C95555 (red) #B4CFEE (light blue) #EEB4EC (light pink) */
+  color: #e50000; /* #C95555 (red) #B4CFEE (light blue) #EEB4EC (light pink) */
 }
 
 a:hover {
 /*  text-shadow: 2px 2px 6px #edb4c3; */
-  color: #C95555; /* #C95555 (red) #B4CFEE (light blue) #EEB4EC (light pink) */
+  color: #e50000; /* #C95555 (red) #B4CFEE (light blue) #EEB4EC (light pink) */
 }
 
 .item-1 {
@@ -144,7 +144,7 @@ a:hover {
   grid-column-start: line4;
   grid-column-end: end;
   grid-row-start: 1;
-  padding-top: 5px;
+  padding-top: 10px;
   padding-left: 25px;
 }
 
